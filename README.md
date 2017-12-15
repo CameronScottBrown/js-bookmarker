@@ -1,7 +1,6 @@
 # js-bookmarker
 A simple JS app that can save/delete bookmark objects to/from local storage.
 
-=============
 index.html
 =============
 - uses a jumbotron bootstrap 4 template
@@ -9,7 +8,6 @@ index.html
 - contains an empty div (id = "bookmarksResults") that is filled with bookmarks when they are added
 
 
-=============
 main.js
 =============
 - contains an event listener for the bookmark form submission, triggers 'saveBookmark()' function
@@ -22,13 +20,11 @@ main.js
 - after deleting the bookmark, deleteBookmark() replaces the current bookmarks into localStorage and calls fetchBookmarks() to refresh the div
 
 
-=============
 style.css
 =============
 - this is a stock stylesheet from the bootstrap 4 narrow jumbotron example template
 
 
-=======================================
 bootstrap.min.js , bootstrap.min.css
 =======================================
 - minified script and stylesheet from bootstrap 4
